@@ -247,8 +247,72 @@ flowchart TD
 
 ---
 
-# 8. Status
+# Endpoints
 
-You are currently at **Phase 6**:  
-Strongly typed microservices + full envelope documentation + enterprise comparison included.
+### GET /health  
+Basic readiness check.
+
+### POST /orchestrate  
+Main endpoint for all channel traffic.
+
+---
+
+# Directory Structure
+
+```
+app/
+ ├── main.py
+ ├── flows/
+ ├── tools/
+ ├── services/
+ ├── models/
+ ├── logging_loki.py
+ └── session_manager.py
+README.md
+requirements.txt
+Procfile
+```
+
+---
+
+# Observability & Traceability
+
+All logs include:
+
+- trace_id  
+- session_id  
+- event_type  
+- service_type  
+- io (in/out)  
+- latency_ms  
+- serialized request/response payloads  
+
+Search in Grafana:
+
+```
+{ trace_id="trace-abc-123" }
+```
+
+---
+
+# Typed Microservice Models
+
+Includes:
+
+- MenuResponse  
+- OrderResponse  
+- RecommendResponse  
+- TrackingResponse  
+- UserProfileResponse  
+
+Fully validated using strict Pydantic models.
+
+---
+
+# Roadmap
+
+- Phase 7 – Error taxonomy  
+- Phase 8 – Transport-agnostic orchestration  
+- Phase 9 – Multi-tenant routing  
+- Phase 10 – Automated tests & mocks  
 
