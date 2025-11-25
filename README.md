@@ -62,7 +62,7 @@ Every hop uses **the same `trace_id`**, enabling perfect reconstruction of the u
 
 ### Why This Matters
 
-Your MCP v2 is not a chatbot wrapper — it is a **real orchestration platform**.
+The MCP v2 is not a chatbot wrapper — it is a **real orchestration platform**.
 
 Traditional agent frameworks rely on a single LLM to guess workflows. MCP v2 instead uses:
 
