@@ -52,11 +52,10 @@ This version represents the first fully production-safe milestone with:
 
 ---
 
+```
 # MCP JSON Envelope Travel Path
 
-![Demo] ()
-
-```
+![Demo]()
 
 # Endpoints
 
