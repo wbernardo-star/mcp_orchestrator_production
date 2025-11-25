@@ -49,9 +49,14 @@ This version represents the first fully production-safe milestone with:
                                            → Recommendations
                                            → Tracking
                                            → Customer Profile
-```
 
 ---
+
+# MCP JSON Envelope Travel Path
+
+![Demo] ()
+
+```
 
 # Endpoints
 
