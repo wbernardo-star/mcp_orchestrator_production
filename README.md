@@ -13,32 +13,7 @@ A production-ready, microservice‑centric orchestration framework built on:
 ---
 
 # 1. High‑Level Architecture
-
-```
-User
-  ↓
-Channel (Voice/Web/App)
-  ↓
-MCP Adapter (Canonical JSON v2)
-  ↓
-MCP Orchestrator v2
-  ↓
- ┌───────────────┐
- │ Intent Service│
- └───────────────┘
-          ↓
- ┌───────────────┐
- │  Flow Engine  │
- └───────────────┘
-          ↓
-Microservice Layer (POST)
-  • Menu Service
-  • Order Service
-  • Recommend Service
-  • Tracking Service
-  • Customer Profile Service
-  ↓
-Orchestrator reply → Adapter → Channel → User
+![Demo](https://github.com/wbernardo-star/mcp_orchestrator_production/blob/main/high-level-arch_v1.jpg)
 ```
 
 Every hop uses **the same `trace_id`**, enabling perfect reconstruction of the user journey in Grafana Loki.
