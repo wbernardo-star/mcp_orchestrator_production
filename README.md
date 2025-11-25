@@ -55,7 +55,7 @@ This version represents the first fully production-safe milestone with:
 ```
 # MCP JSON Envelope Travel Path
 
-![Demo]()
+![Demo](https://github.com/wbernardo-star/mcp_orchestrator_production/blob/main/IMG_5293.GIF)
 
 # Endpoints
 
