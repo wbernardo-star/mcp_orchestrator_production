@@ -24,7 +24,7 @@ MCP Adapter (Canonical JSON v2)
 MCP Orchestrator v2
   ↓
  ┌───────────────┐
- │ Intent Service │
+ │ Intent Service│
  └───────────────┘
           ↓
  ┌───────────────┐
