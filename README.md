@@ -15,10 +15,9 @@ A production-ready, microservice‑centric orchestration framework built on:
 # 1. High‑Level Architecture
 ![Demo](https://github.com/wbernardo-star/mcp_orchestrator_production/blob/main/high-level-arch_v1.jpg)
 ```
-
 Every hop uses **the same `trace_id`**, enabling perfect reconstruction of the user journey in Grafana Loki.
-
 ---
+
 
 # 2. Comparison With Typical Agent Frameworks (Updated)
 
