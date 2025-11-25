@@ -216,9 +216,7 @@ flowchart TD
 # MCP JSON Envelope Travel Path
 
 ![Demo](https://github.com/wbernardo-star/mcp_orchestrator_production/blob/main/IMG_5293.GIF)
-```
 
----
 # 6. Why MCP v2 is Production Ready
 
 - No stub logic  
